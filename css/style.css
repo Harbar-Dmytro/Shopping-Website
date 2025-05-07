@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Neue Haas Unica";
+    src: local("./fonts/Neue Haas Unica Medium"), local("./fonts/Neue-Haas-Unica-Medium"),
+        url("./fonts/NeueHaasUnica-Medium.woff2") format("woff2"),
+        url("./fonts/NeueHaasUnica-Medium.woff") format("woff"),
+        url("./fonts/NeueHaasUnica-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica1';
+    src: local('./fonts/Neue Haas Unica Regular'), local('./fonts/Neue-Haas-Unica-Regular'),
+        url('./fonts/NeueHaasUnica-Regular.woff2') format('woff2'),
+        url('./fonts/NeueHaasUnica-Regular.woff') format('woff'),
+        url('./fonts/NeueHaasUnica-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mrs Saint Delafield';
+    src: local('./fonts/Mrs Saint Delafield Regular'), local('./fonts/Mrs-Saint-Delafield-Regular'),
+        url('./fonts/MrsSaintDelafield-Regular.woff2') format('woff2'),
+        url('./fonts/MrsSaintDelafield-Regular.woff') format('woff'),
+        url('./fonts/MrsSaintDelafield-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Neue Haas Unica';
+}
+
+/*Фон для першого блоку*/
+header {
+    background-image: url("/img/header-first.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/*Блок навігації*/
+.green_button {
+    background: #00D664;
+    border-radius: 27px;
+}
+
+.header_title {
+    max-width: 700px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.container.section-3 {
+    margin-top: 600px;
+    background: #F7F4FB;
+    max-width: 100%;
+    min-height: 800px;
+}
+
+.container.section-3 .row{
+    width: 65%;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.container.section-3 .col-3 .services {
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.services div img {
+    padding-top: 38px;
+    padding-bottom: 7px;
+    width: 90px;
+    height: 90px;
+}
+
+.container h3 {
+    padding-top: 165px;
+    padding-bottom: 72px;
+    color: #1E266D;
+}
+.services .text-color-service {
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: -0.01em;
+    color: #1E266D;
+}
+
+.services h4.text-color-service {
+    font-size: 20px;
+}
+
+.services h5 {
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    color: #696969;
+    padding-top: 24px;
+    padding-bottom: 27px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #00D664;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #00D664;
+}
+.dots-services {
+    z-index: -1;
+    margin-top: 150px;
+    margin-left: 835px;
+}
